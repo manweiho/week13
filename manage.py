@@ -14,7 +14,7 @@ def new_employee():
    return render_template('employee.htm')
 
 
-@app.route('/addrec',methods = ['POST', 'GET'])
+@app.route('/registration',methods = ['POST', 'GET'])
 def addrec():
    if request.method == 'POST':
       try:
